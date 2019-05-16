@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body{
+	margin: 0;	
+	background-color: #fff;
+	font-family: 'Ubuntu', serif;
+}
+.cabecalho{
+	height: 24px;
+	background-color: #008b8b;
+	padding: 0 50px;
+	text-align: right !important;
+	color: #fff;
+	1font-size: 18px;
+}
+.cabecalho a{
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+	margin-right: 200px;
+}
+
+#erro, #msg{
+	z-index: 9999;
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: #FFF; 
+	font-weight: 800; 
+	width: 550px;  
+	padding: 50px 15px; 
+	background-color: #F00; 
+	border: solid 4px #000;
+	border-radius: 12px; 
+	display: none;
+	font-size: 25px;
+	text-align: center; 		
+}
+#msg{
+	background-color: #0c0 !important;
+}
+
+.menu{
+	background-color: #FFF;
+	text-transform: uppercase;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+.menu li{
+	display: inline;
+}
+.links a{
+	display: inline-block;
+	color: #008b8b;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+.links a:hover{
+	background-color: #EEC900;
+	color: #fff;
+}
+.logo{
+	height:60px;
+	width: 150px;
+	vertical-align: middle;
+}
+.banner{
+	height: 600px;
+	background-image: url(../imagens/site_dog.jpg);
+	margin: 0;
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+.container{
+	width: 800px;
+	margin: auto;
+}
+.contAjuda{
+	width: 960px;
+	height: 600px;
+	margin: auto;
+}
+.containerAdotar{
+	padding: 100px 0px 100px 0;
+	width: 960px;
+	margin: auto;
+	text-align: center;
+}
+.cadastro{
+	background-color: #EEC900;
+	margin: 10px auto;
+	text-align: center;
+	border-radius: 20px;
+	font-weight: bold;
+	padding: 15px 0;
+	font-size: 20px;
+}
+.cadastro h1{
+	color: #008b8b;
+}
+.formcadastrar{
+	width: 70%;
+	display: block;
+	margin: 10px auto;
+	resize: none;
+	font-size: 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+	padding: 5px;
+}
+#cadastrar{
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px 0;
+	background-color: #008b8b;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	font-weight: bold;
+}
+.botao {
+	width: 100px;
+	padding: 5px;
+	margin-top: 20px;
+}
+.destaques{ /*Excluir depois de fazer a index*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.d{ /*Excluir depois de fazer a index*/
+	display: flex;
+	margin: auto;
+	margin-bottom: 20px;
+	flex: 1
+}
+.cachorros{
+	width: 250px;
+	text-align: center;
+}
+.cachorros h3{
+	margin: 0;
+	text-align: center;
+	padding: 5px 0;
+}
+.cachorros p{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+} 
+.cachorros a{
+	color: #000;
+	text-decoration: none;
+}
+.cachorros a:hover{
+	color: #008b8b;
+}
+.medio{
+	width: 80%;
+	margin-top: 20px;	
+}
+.row{
+	display: flex;
+	flex-flow: row wrap;
+	padding: 0 10px;
+}
+
+.concientizacao{
+	background-color: #333333;
+	color: #fff;
+	display: flex;
+	padding: 20px 300px;
+}
+.carrosel{
+	margin-top: 150px;
+}
+.con1{
+	flex: 1;
+	text-align: center;
+}
+.rodape{
+	background-color: #008b8b;
+	text-align: center;
+	padding: 20px 0;
+}
+.colunasrod{
+	display: flex;
+	padding: 0 250px;
+}
+.colunasrod h5{
+	color: #fff;
+	font-size: 15px;
+}
+.colunasrod h4{
+	margin: 0;
+	padding-bottom: 20px;
+}
+.c1{
+	flex: 1;
+	padding: 10px 0;
+}
+.contato, .containerajudar{
+	background-color: #333333;
+	padding-top: 160px;
+	padding-bottom: 60px;
+	text-align: center;
+	color: #fff;
+}
+.sessaocontato{
+	margin: auto;
+}
+#fotos, #dados{
+	padding: 50px 300px;
+	font-size: 15px;
+}
+.login1{
+	width: 500px;
+	margin: auto;
+	background-color: #EEC900;
+	border-radius: 20px;
+	font-weight: bold;
+	padding: 15px ;
+	font-size: 20px;
+}
+.login1 input{
+	display: block;
+	width: 98%;
+	font-size: 20px;
+	padding: 5px;
+	margin: 20px 0;
+	border-radius: 8px;
+}
+#logar{
+	width: 50%;
+	margin: auto;
+	padding: 10px 0;
+	background-color: #008b8b;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	font-weight: bold;
+}
+.login1 h1{
+	color: #008b8b;
+}
+.login1 p{
+	text-align: left;
+}
+.adm {
+	width: 500px;
+	margin: auto;
+	padding: 98px 0;
+	text-align: center;
+}
+.adm img{
+	width: 128px;	
+}
+.adm a{
+	color: #fff;
+	text-decoration: none;
+}
+.adm a:hover{
+	text-decoration: underline;	
+}
+.des{
+	width: 20%;
+	margin: auto;
+	padding: 10px 0;
+	background-color: #008b8b;
+	border: none;
+	border-radius: 8px;
+	color: #fff;
+	font-weight: bold;
+}
+.tabela{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.tabela th{
+	background-color: #008b8b;
+	padding: 10px;
+}
+.tabela td{
+	padding: 10px;	
+}
+.mini{
+	width: 75px;
+}
+.atualizar{
+	margin: auto;
+	padding: 50px 0;
+	width: 50%	
+}
+.atualizar *{
+	width: 100%;
+	display: block;
+	margin: 10px auto;
+	resize: none;
+	font-size: 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+	padding: 5px;
+}
+.mudar{
+	display: block;
+	text-align: center;
+}
+.avatar {
+	display: block;
+	margin: auto;	
+	width: 200px;
+}
+.containerEditar{
+	background-color: #333333;
+	color: #fff;
+	padding-bottom: 50px;
+}
+.containerEditar h1{
+	text-align:center;
+	padding-top: 100px;/*Verificar.*/
+}
+.editar{
+	width: 800px;
+	margin: auto;
+}
+.titulo{
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+	.container, .contAjuda, .contato, .contadotar{
+		width: 100%;
+	}
+	.banner{
+		background-image: none;
+		height: auto;
+	}
+	.flex{
+		display: block;
+	}
+}/* fim do media query */
+
+
+
+
+
